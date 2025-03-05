@@ -1,7 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import { Home } from "./pages/Home";
+
+//páginas
+import { Home } from "./pages/Home/index.tsx";
 import { History } from "./pages/History";
 import { DefaultLayout } from "./layouts/DefaultLayout/index";
+
 export function Router() {
   return (
     <Routes>

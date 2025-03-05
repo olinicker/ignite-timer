@@ -7,11 +7,11 @@ import { Router } from "./Router.tsx";
 
 export function App() {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter>
+    <BrowserRouter>
+      <ThemeProvider theme={defaultTheme}>
         <Router />
         <GlobalStyle></GlobalStyle>
-      </BrowserRouter>
-    </ThemeProvider>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
