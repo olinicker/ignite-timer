@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 //páginas
 import { Home } from "./pages/Home/index.tsx";
-import { History } from "./pages/History";
+import { History } from "./pages/History/index.tsx";
 import { DefaultLayout } from "./layouts/DefaultLayout/index";
 
 export function Router() {
